@@ -103,7 +103,7 @@ h3 {
 }
 
 .cup.cup-small.full {
-  background-color: var(--fill-color);
+  background: linear-gradient(180deg, rgb(131 181 225) 0, rgba(0,150,255,1) 100%);
   color: #fff;
 }
 
@@ -139,7 +139,7 @@ h3 {
 }
 
 .percentage {
-  background-color: var(--fill-color);
+  background: linear-gradient(180deg, rgb(131 181 225) 0, rgba(0,150,255,1) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
