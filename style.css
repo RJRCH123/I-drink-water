@@ -61,11 +61,15 @@ body {
   grid-area: boxMiniB;
   align-self: center;
   text-align: center;
-  margin: 5%;
+  margin: 5% 20% 5% 0%;
 }
 
 h1 {
-  margin: 10px 0 0;
+  margin: 10% 0;
+  font-size: xx-large;    
+  background-image: linear-gradient(60deg, #b2c0ca, hsl(205deg 84% 47%));
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 h3 {
@@ -79,29 +83,31 @@ h3 {
   color: var(--border-color);
   border-radius: 0 0 40px 40px;
   height: 330px;
-  width: 150px;
-  margin: 30px 0;
+  width: 80%;
+  margin: 20% 5% 20% 10%;
   display: flex;
   flex-direction: column;
   overflow: hidden;
 }
 
 .cup.cup-small {
+  border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+  transform: rotateZ(-45deg);
   height: 95px;
-  width: 50px;
-  border-radius: 0 0 15px 15px;
+  width: 95px;
+  /* border-radius: 0 0 15px 15px; */
   background-color: rgba(255, 255, 255, 0.9);
   cursor: pointer;
   font-size: 14px;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 5px;
+  /* margin: 7px; */
   transition: 0.3s ease;
 }
 
 .cup.cup-small.full {
-  background-color: var(--fill-color);
+  background: linear-gradient(180deg, rgb(131 181 225) 0, rgba(0,150,255,1) 100%);
   color: #fff;
 }
 
@@ -137,7 +143,7 @@ h3 {
 }
 
 .percentage {
-  background-color: var(--fill-color);
+  background: linear-gradient(180deg, rgb(131 181 225) 0, rgba(0,150,255,1) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -162,4 +168,19 @@ h3 {
     height: 100%;
     /* width: 100%; */
   }
+  .boxMiniB {
+    grid-area: boxMiniB;
+    align-self: center;
+    text-align: center;
+    margin: 5%;
+  }
+  .text {
+    text-align: center;
+    margin: 0 0 10%;
+  }
+  .cup.cup-small {
+    height: 80px;
+    width: 80px;
+  }
+
 }
