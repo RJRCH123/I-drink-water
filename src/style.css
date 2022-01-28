@@ -61,7 +61,7 @@ body {
   grid-area: boxMiniB;
   align-self: center;
   text-align: center;
-  margin: 5%;
+  margin: 5% 20% 5% 0%;
 }
 
 h1 {
@@ -87,16 +87,18 @@ h3 {
 }
 
 .cup.cup-small {
+  border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
+  transform: rotateZ(-45deg);
   height: 95px;
-  width: 50px;
-  border-radius: 0 0 15px 15px;
+  width: 95px;
+  /* border-radius: 0 0 15px 15px; */
   background-color: rgba(255, 255, 255, 0.9);
   cursor: pointer;
   font-size: 14px;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 5px;
+  /* margin: 7px; */
   transition: 0.3s ease;
 }
 
@@ -162,4 +164,10 @@ h3 {
     height: 100%;
     /* width: 100%; */
   }
+  .boxMiniB {
+    grid-area: boxMiniB;
+    align-self: center;
+    text-align: center;
+    margin: 5%;
+}
 }
