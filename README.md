@@ -2,7 +2,7 @@
 # 💧 I-drink-water
 
 ## ÍNDICE
-* [1. Raffle-page](#1-Raffle-page )
+* [1. I-drink-water](#1-I-drink-water )
 * [2. Realization of the Project](#2-Realización-del-Proyecto)
 * [3. Technologies used](#3-Technologies-used)
 * [4. Authors ](#4-Authors )
