@@ -1,0 +1,26 @@
+{
+  "name": "i-drink-water",
+  "version": "1.0.0",
+  "description": "🧪 This app helps you count how much water  you drink 🥤 in the day ☀️ and thus stay hydrated 💧 with the correct ✔️ amount. Ideal for kids and adults.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve ./src",
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RJRCH123/I-drink-water.git"
+  },
+  "keywords": [],
+  "author": "Rosamaria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RJRCH123/I-drink-water/issues"
+  },
+  "homepage": "https://github.com/RJRCH123/I-drink-water#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "serve": "^13.0.2"
+  }
+}
